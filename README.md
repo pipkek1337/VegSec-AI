@@ -1,5 +1,50 @@
-# VegSec-AI
-A secure AI-driven system for vegetable image classification, integrating cybersecurity measures to ensure reliable and efficient data handling. (much hebrew in documenting).
-Will be written mostly in Python.
+# VegSecAI 🥕  
+A secure AI-driven system for vegetable image classification, integrating cybersecurity measures to ensure reliable and efficient data handling.  
+Written mostly in Python.  
+*Note: Some documentation and comments are in Hebrew.*
 
-Obviously not yet ready :)
+---
+
+## 🔧 Getting Started  
+This repository contains **only the code**.
+
+To run the system, follow the instructions for both server and client setup.
+
+---
+
+## 🖥️ Server Requirements
+
+### Prerequisites:
+- [Ollama](https://ollama.com/)
+- [Moondream v2](https://ollama.com/library/moondream:v2)
+
+### Install Python dependencies:
+First, install the necessary Python packages:
+
+```bash
+pip install bcrypt cryptography python-dotenv pillow transformers torch moondream
+```
+
+### Setup Instructions:
+1. Install and run **Moondream** using Ollama.
+2. Place the provided server-side scripts where needed.
+3. Launch the server process.  
+   > ⚠️ The server currently supports **LAN connections only**.
+
+---
+
+## 💻 Client Requirements
+
+### Install Python dependencies:
+First, install the necessary Python packages:
+
+```bash
+pip install pillow opencv-python
+```
+
+Once dependencies are installed and the server is running, the client can connect over the LAN and start classifying vegetable images.
+
+---
+
+## 📜 License
+GNU General Public License (GPL)
