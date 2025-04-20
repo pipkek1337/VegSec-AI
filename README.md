@@ -1,6 +1,5 @@
 # VegSecAI 🥕  
 A secure AI-driven system for vegetable image classification, integrating cybersecurity measures to ensure reliable and efficient data handling.  
-Written mostly in Python.  
 *Note: Some documentation and comments are in Hebrew.*
 
 ---
