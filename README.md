@@ -47,4 +47,6 @@ Once dependencies are installed and the server is running, the client can connec
 ---
 
 ## 📜 License
-GNU General Public License (GPL)
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)  
+You are free to use, modify, and distribute this code **as long as any derivative works remain open-source** under the same license.
+
